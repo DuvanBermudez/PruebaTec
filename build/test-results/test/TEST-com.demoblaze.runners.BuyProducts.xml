@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.demoblaze.runners.BuyProducts" tests="3" skipped="0" failures="0" errors="0" timestamp="2024-04-16T06:41:22" hostname="DESKTOP-PRLGOT5" time="44.486">
+  <properties/>
+  <testcase name="A user wants to buy on demoblaze #1" classname="com.demoblaze.runners.BuyProducts" time="17.1"/>
+  <testcase name="A user wants to buy on demoblaze #2" classname="com.demoblaze.runners.BuyProducts" time="14.231"/>
+  <testcase name="A user wants to buy on demoblaze #3" classname="com.demoblaze.runners.BuyProducts" time="13.153"/>
+  <system-out><![CDATA[01:41:21.783 [Test worker] INFO  i.c.core.plugin.SerenityReporter - Running feature from file:///C:/Users/duvan/Downloads/PruebaTec/src/test/resources/features/buy_products.feature
+01:41:22.059 [Test worker] INFO   - 
+
+-------------------------------------------------------------------------------------
+     _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
+    /       ||   ____||   _  \     |   ____||  \ |  | |  | |           |\   \  /   / 
+   |   (----`|  |__   |  |_)  |    |  |__   |   \|  | |  | `---|  |----` \   \/   /  
+    \   \    |   __|  |      /     |   __|  |  . `  | |  |     |  |       \_    _/   
+.----)   |   |  |____ |  |\  \----.|  |____ |  |\   | |  |     |  |         |  |     
+|_______/    |_______|| _| `._____||_______||__| \__| |__|     |__|         |__|    
+                                                                                     
+ News and tutorials at http://www.serenity-bdd.info                                  
+ Documentation at https://wakaleo.gitbooks.io/the-serenity-book/content/             
+ Join the Serenity Community on Gitter: https://gitter.im/serenity-bdd/serenity-core 
+ Serenity BDD Support and Training at http://serenity-bdd.info/#/trainingandsupport  
+-------------------------------------------------------------------------------------
+
+01:41:22.067 [Test worker] INFO   - Test Suite Started: User buy in demoblaze
+01:41:22.119 [Test worker] INFO  i.c.core.plugin.SerenityReporter - Running feature from file:///C:/Users/duvan/Downloads/PruebaTec/src/test/resources/features/buy_products.feature
+01:41:22.123 [Test worker] INFO   - Test Suite Started: User buy in demoblaze
+
+Scenario Outline: A user wants to buy on demoblaze                                   ?[90m# src/test/resources/features/buy_products.feature:12?[0m
+01:41:22.231 [Test worker] INFO  i.c.core.plugin.SerenityReporter - Running feature from file:///C:/Users/duvan/Downloads/PruebaTec/src/test/resources/features/buy_products.feature
+01:41:22.255 [Test worker] INFO   - 
+  _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+ |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+   | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+A user wants to buy on demoblaze(user-buy-in-demoblaze;a-user-wants-to-buy-on-demoblaze)
+--------------------------------------------------------------------------------
+01:41:22.871 [Test worker] INFO  n.s.c.w.d.DriverProvider - Using automatically driver download
+01:41:23.243 [Test worker] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.31.0 (resolved driver for Firefox 95)
+01:41:23.263 [Test worker] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\duvan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+  ?[32mGiven ?[0m?[32mi want to buy product in ?[0m?[32m?[1m"https://www.demoblaze.com/"?[0m                        ?[90m# com.demoblaze.stepdefinitions.BuyProductsStepDefinitions.iWantToBuyProductIn(java.lang.String)?[0m
+  ?[32mWhen ?[0m?[32mselect category and product?[0m                                                   ?[90m# com.demoblaze.stepdefinitions.BuyProductsStepDefinitions.selectCategoryAndProduct(io.cucumber.datatable.DataTable)?[0m
+    | category | Phones            |
+    | product  | Samsung galaxy s6 |
+  ?[32mAnd ?[0m?[32mgo to cart and pay?[0m                                                             ?[90m# com.demoblaze.stepdefinitions.BuyProductsStepDefinitions.goToCartAndPay()?[0m
+  ?[32mThen ?[0m?[32mverify that shop are successfully with message ?[0m?[32m?[1m"Thank you for your purchase!"?[0m ?[90m# com.demoblaze.stepdefinitions.BuyProductsStepDefinitions.verifyThatShopAreSuccessfullyWithMessage(java.lang.String)?[0m
+01:41:39.223 [Test worker] INFO   - 
+  _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
+ |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
+   | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
+
+A user wants to buy on demoblaze
+----------------------------------------------------------------------
+
+Scenario Outline: A user wants to buy on demoblaze                                   ?[90m# src/test/resources/features/buy_products.feature:13?[0m
+01:41:39.240 [Test worker] INFO  i.c.core.plugin.SerenityReporter - Running feature from file:///C:/Users/duvan/Downloads/PruebaTec/src/test/resources/features/buy_products.feature
+  ?[32mGiven ?[0m?[32mi want to buy product in ?[0m?[32m?[1m"https://www.demoblaze.com/"?[0m                        ?[90m# com.demoblaze.stepdefinitions.BuyProductsStepDefinitions.iWantToBuyProductIn(java.lang.String)?[0m
+  ?[32mWhen ?[0m?[32mselect category and product?[0m                                                   ?[90m# com.demoblaze.stepdefinitions.BuyProductsStepDefinitions.selectCategoryAndProduct(io.cucumber.datatable.DataTable)?[0m
+    | category | Laptops      |
+    | product  | Sony vaio i5 |
+  ?[32mAnd ?[0m?[32mgo to cart and pay?[0m                                                             ?[90m# com.demoblaze.stepdefinitions.BuyProductsStepDefinitions.goToCartAndPay()?[0m
+  ?[32mThen ?[0m?[32mverify that shop are successfully with message ?[0m?[32m?[1m"Thank you for your purchase!"?[0m ?[90m# com.demoblaze.stepdefinitions.BuyProductsStepDefinitions.verifyThatShopAreSuccessfullyWithMessage(java.lang.String)?[0m
+01:41:53.459 [Test worker] INFO   - 
+  _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
+ |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
+   | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
+
+A user wants to buy on demoblaze
+----------------------------------------------------------------------
+
+Scenario Outline: A user wants to buy on demoblaze                                   ?[90m# src/test/resources/features/buy_products.feature:14?[0m
+01:41:53.472 [Test worker] INFO  i.c.core.plugin.SerenityReporter - Running feature from file:///C:/Users/duvan/Downloads/PruebaTec/src/test/resources/features/buy_products.feature
+  ?[32mGiven ?[0m?[32mi want to buy product in ?[0m?[32m?[1m"https://www.demoblaze.com/"?[0m                        ?[90m# com.demoblaze.stepdefinitions.BuyProductsStepDefinitions.iWantToBuyProductIn(java.lang.String)?[0m
+  ?[32mWhen ?[0m?[32mselect category and product?[0m                                                   ?[90m# com.demoblaze.stepdefinitions.BuyProductsStepDefinitions.selectCategoryAndProduct(io.cucumber.datatable.DataTable)?[0m
+    | category | Monitors         |
+    | product  | Apple monitor 24 |
+  ?[32mAnd ?[0m?[32mgo to cart and pay?[0m                                                             ?[90m# com.demoblaze.stepdefinitions.BuyProductsStepDefinitions.goToCartAndPay()?[0m
+  ?[32mThen ?[0m?[32mverify that shop are successfully with message ?[0m?[32m?[1m"Thank you for your purchase!"?[0m ?[90m# com.demoblaze.stepdefinitions.BuyProductsStepDefinitions.verifyThatShopAreSuccessfullyWithMessage(java.lang.String)?[0m
+]]></system-out>
+  <system-err><![CDATA[?[32m?[1m??????????????????????????????????????????????????????????????????????????????????????[0m
+?[32m?[1m??[0m Share your Cucumber Report with your team at ?[36m?[1m?[4mhttps://reports.cucumber.io?[0m          ?[32m?[1m??[0m
+?[32m?[1m??[0m Activate publishing with one of the following:                                    ?[32m?[1m??[0m
+?[32m?[1m??[0m                                                                                   ?[32m?[1m??[0m
+?[32m?[1m??[0m src/test/resources/cucumber.properties:          ?[36mcucumber.publish.enabled?[0m=?[36mtrue?[0m    ?[32m?[1m??[0m
+?[32m?[1m??[0m src/test/resources/junit-platform.properties:    ?[36mcucumber.publish.enabled?[0m=?[36mtrue?[0m    ?[32m?[1m??[0m
+?[32m?[1m??[0m Environment variable:                            ?[36mCUCUMBER_PUBLISH_ENABLED?[0m=?[36mtrue?[0m    ?[32m?[1m??[0m
+?[32m?[1m??[0m JUnit:                                           ?[36m@CucumberOptions?[0m(publish = ?[36mtrue?[0m) ?[32m?[1m??[0m
+?[32m?[1m??[0m                                                                                   ?[32m?[1m??[0m
+?[32m?[1m??[0m More information at ?[36mhttps://cucumber.io/docs/cucumber/environment-variables/?[0m      ?[32m?[1m??[0m
+?[32m?[1m??[0m                                                                                   ?[32m?[1m??[0m
+?[32m?[1m??[0m Disable this message with one of the following:                                   ?[32m?[1m??[0m
+?[32m?[1m??[0m                                                                                   ?[32m?[1m??[0m
+?[32m?[1m??[0m src/test/resources/cucumber.properties:          ?[36mcucumber.publish.quiet?[0m=?[36mtrue?[0m      ?[32m?[1m??[0m
+?[32m?[1m??[0m src/test/resources/junit-platform.properties:    ?[36mcucumber.publish.quiet?[0m=?[36mtrue?[0m      ?[32m?[1m??[0m
+?[32m?[1m??????????????????????????????????????????????????????????????????????????????????????[0m
+]]></system-err>
+</testsuite>

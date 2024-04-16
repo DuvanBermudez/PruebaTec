@@ -1,0 +1,18 @@
+com/demoblaze/ui/HomePage.java
+ com.demoblaze.ui.HomePage
+com/demoblaze/ui/ShopPage.java
+ com.demoblaze.ui.ShopPage
+com/demoblaze/models/User.java
+ com.demoblaze.models.User
+com/demoblaze/models/Product.java
+ com.demoblaze.models.Product
+com/demoblaze/task/RegisterUser.java
+ com.demoblaze.task.RegisterUser
+com/demoblaze/task/SelectProduct.java
+ com.demoblaze.task.SelectProduct
+com/demoblaze/ui/CartPage.java
+ com.demoblaze.ui.CartPage
+com/demoblaze/task/GoCartAndPay.java
+ com.demoblaze.task.GoCartAndPay
+com/demoblaze/question/TextsAreSame.java
+ com.demoblaze.question.TextsAreSame
